@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <title>Document</title>
+    <style>
+      html{
+  scroll-behavior:smooth;
+}
+        #mypdf{
+            width: 35%;
+            height: 600px;
+            margin-bottom: 40px;
+            margin-left:30px;
+            margin-top: 20px;
+        }
+        #pdf{
+            width:35%;
+            height:600px;
+            margin-bottom: 40px;
+            margin-left:350px;
+        }
+        #btnScrollToTop{
+      position: fixed;
+      right:10px;
+      bottom:10px;
+      width:50px;
+      height:50px;
+      border-radius:50px;
+      background: rgb(72, 71, 179);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+      color:aliceblue;
+      border: none;
+      outline: none; 
+      cursor:pointer;
+
+    }
+    #btnScrollToTop:active{
+      background: rgb(72, 71, 179);
+    }
+    .gotopbtn{
+      position: fixed;
+      width: 50px;
+      height: 50px;
+      background: black;
+      bottom: 40px;
+      right: 50px;
+      text-decoration: none;
+      text-align: center;
+      line-height: 50px;
+      color: white;
+      font-size: 22px;
+
+    }
+
+    </style>
+</head>
+<body style="background-color: whitesmoke;">
+    <nav>
+        <ul> 
+         <label class="logo"></label>
+         <li><a href="index.html">Home</a></li> 
+         <li><a href="people.html">PEOPLE</a></li> 
+         <li><a href="report.html">INCUBATION REPORT</a></li> 
+         <li><a href="I&E.html">I&E CONTRIBUTION</a></li> 
+         <li><a class="active" href="news.html">NEWS LETTER</a></li>
+         <li><a href="IPR.html">IPR</a></li>   
+         <li><a href="skill.html">Skill Course</a></li>      
+        </ul>
+        <label id="icon">
+         <i class="fas fa-bars"></i>
+        </label>
+     </nav>
+     <br>
+     <br>
+     <h1 style="padding-left: 500px; font-size: xx-large;padding-left:33%;color:rgb(235, 16, 16)"><img src="newspaper.gif" style="width: 60px; height: 60px;margin-bottom:-15px;"> CENTURION BECONS</h1>
+     <br>
+     <br>
+     <div class="volume" style="margin-top: -300px;display:inline-flex">
+     <h2 style="margin-left: 280px;">VOLUME I</h2>
+     <h2 style="margin-left: 640px;float: right;">VOLUME II</h2>
+     </div>
+    <iframe style="margin-left:100px;" id="mypdf" src="Becon1_compressed.pdf" width="650" height="480" allow="autoplay"></iframe>
+    <iframe style="margin-left: 850px;float: left;margin-top:-650px;display:inline-flex;"id="pdf" src="Becon2.pdf" width="650" height="480" allow="autoplay"></iframe>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="cutm" >
+        <img src="down logo.png"  height="200px" style="margin-left:690px ;">
+    </div>
+    <br>
+    <div class="copy">
+        <p style="margin-left:500px;">Copyright @ 2023 Centurion University Of Technology & Management</p>
+    </div>
+    <br>
+    <br>
+    <br>
+      <a class="gotopbtn"href="#"><i class="fas fa-arrow-up"></i></a>
+</body>
+</html>
